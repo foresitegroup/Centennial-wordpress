@@ -1,0 +1,131 @@
+/*
+ *
+ * Countdown page
+ *
+ */
+
+/* Basic elements */
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body,
+html {
+	min-height: 100%;
+}
+body {
+	background: url('bg.jpg') no-repeat center center;
+	background-size: cover;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;	
+	font-weight: 300;
+	text-align: center;
+}
+#logo {
+	display: block;
+	height: auto;
+	margin: 70px auto;
+	max-width: 300px;
+}
+h1 {
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 1.2;
+	margin: 0;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 32px;
+}
+small {
+	font-size: 16px;
+	line-height: 2;
+}
+#countdown {
+	margin: 80px 0 180px 0;
+}
+footer {
+	clear: both;
+	font-size: 13px;
+}
+
+/* Countdown */
+.countdown-value {
+	border: 3px solid #d27244;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0 32px;
+	height: 170px;
+	position: relative;
+	width: 170px;	
+}
+.countdown-value span {
+	color: #fff;
+	display: block;
+	font-family: 'Old Standard TT', serif;
+	font-size: 72px;
+	font-weight: normal;
+	line-height: 165px;
+	text-align: center;
+	width: 100%;
+}
+.countdown-value strong {
+	bottom: -48px;
+	font-size: 14px;
+	font-weight: bold;
+	left: 0;
+	position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 1040px) {
+	#logo {
+		max-width: 200px;
+	}
+	h1 {
+		font-size: 24px;
+	}
+	#countdown {
+		margin: 40px 0 100px 0;
+	}
+	.countdown-value {
+		height: 100px;
+		margin: 0 10px;
+		width: 100px;
+	}
+	.countdown-value span {
+		font-size: 48px;
+		line-height: 95px;	
+	}
+}
+
+@media (max-width: 540px) {
+	#logo {
+		margin: 20px auto;
+		max-width: 150px!important;
+	}
+	.countdown-value {
+		height: 50px;
+		margin: 0 10px;
+		width: 50px;
+	}
+	.countdown-value span {
+		font-size: 24px;
+		line-height: 45px;	
+	}
+	.countdown-value strong {
+		bottom: -25px;
+		font-size: 10px;
+		margin: 0;
+	}
+	#countdown {
+		margin: 40px 0;
+	}
+}

@@ -1,0 +1,72 @@
+/* CSS for the small desktop devices */
+article.post,
+article.page,
+article.attachment,
+#comments,
+#respond,
+#content-top,
+#content-bottom,
+.frontpage-block,
+.frontpage-block.gk-parallax {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+#sidebar {
+	padding: 0 15px;
+}
+
+#gk-header-nav-wrap {
+  padding: 0 10px;
+}
+
+.gk-testimonials-next {
+  right: 20px;
+}
+
+.gk-testimonials-prev {
+  left: 20px;
+}
+
+#gk-top1 > div > div,
+#gk-top2 > div > div,
+#gk-bottom1 > div > div,
+#gk-bottom2 > div > div,
+#gk-bottom3 > div > div {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.gk-special .gk-special-content {
+  padding: 35px 50px;
+  width: 60%;
+}
+
+.gk-special .figure {
+  width: 40%;
+}
+
+.gk-over-map.gk-cols > div:first-child {
+  padding: 0 30px 0 0;
+}
+
+.gk-over-map.gk-cols > div {
+  padding: 0 0 0 30px;
+}
+
+.gk-over-map {
+  overflow: hidden;
+}
+
+.one-page-layout > header.bigtitle.has-bg {
+  margin: 0 -30px 60px -30px!important;
+}
+
+.big-icon a {
+  font-size: 40px;
+}
+
+/* NSP - Grid News portal mode */
+.gk-nsp-news_grid figcaption > div {
+  padding: 0 10px;
+}

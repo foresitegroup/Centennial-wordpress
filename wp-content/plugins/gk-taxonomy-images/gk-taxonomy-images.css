@@ -1,0 +1,13 @@
+/**
+ *
+ * Styles for the GK Taxonomy Images plugin
+ *
+ **/
+
+.gk_taxonomy_images_preview_img {
+	background: #fff;
+	border: 1px solid #ddd;
+	margin: 10px 0;
+	max-height: 320px;
+	max-width: 320px;
+}

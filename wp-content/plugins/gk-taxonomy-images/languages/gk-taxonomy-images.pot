@@ -1,0 +1,37 @@
+# GK Taxonomy Images
+# Copyright (C) 2014 GavickPro
+# This file is distributed under the same license as the PACKAGE package.
+# GavickPro <info@gavick.com>, 2014.
+#
+#, fuzzy
+msgid   ""
+msgstr  "Project-Id-Version: 1.0.0\n"
+        "Report-Msgid-Bugs-To: \n"
+        "POT-Creation-Date: 2014-08-28 12:12+0200\n"
+        "PO-Revision-Date: 2014-08-28 12:12+0200\n"
+        "Last-Translator: Tomasz Dziuda <dziudek@gavick.com>\n"
+        "Language-Team: LANGUAGE <LL@li.org>\n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=CHARSET\n"
+        "Content-Transfer-Encoding: 8bit\n"
+
+#: gk-taxonomy-images.php:58
+msgid   "Image"
+msgstr  ""
+
+#: gk-taxonomy-images.php:66
+msgid   "Preview image"
+msgstr  ""
+
+#: gk-taxonomy-images.php:62
+msgid   "Remove image"
+msgstr  ""
+
+#: gk-taxonomy-images.php:71
+msgid   "Select an image which will be displayed in the taxonomy page for "
+        "this term."
+msgstr  ""
+
+#: gk-taxonomy-images.php:61
+msgid   "Select image"
+msgstr  ""

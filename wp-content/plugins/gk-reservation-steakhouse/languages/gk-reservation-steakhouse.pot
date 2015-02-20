@@ -1,0 +1,100 @@
+# GK Reservation Steakhouse
+# Copyright (C) 2014 GavickPro
+# This file is distributed under the same license as the PACKAGE package.
+# GavickPro <info@gavick.com>, 2014.
+#
+#, fuzzy
+msgid   ""
+msgstr  "Project-Id-Version: 1.0.0\n"
+        "Report-Msgid-Bugs-To: \n"
+        "POT-Creation-Date: 2014-08-28 12:12+0200\n"
+        "PO-Revision-Date: 2014-08-28 12:12+0200\n"
+        "Last-Translator: Tomasz Dziuda <dziudek@gavick.com>\n"
+        "Language-Team: LANGUAGE <LL@li.org>\n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=CHARSET\n"
+        "Content-Transfer-Encoding: 8bit\n"
+
+#: gk-reservation-steakhouse.php:65
+msgid   "Date"
+msgstr  ""
+
+#: gk-reservation-steakhouse.php:113
+msgid   "E-mail"
+msgstr  ""
+
+#: gk-reservation-steakhouse.php:270
+msgid   "E-mail: "
+msgstr  ""
+
+#: gk-reservation-steakhouse.php:347
+msgid   "GK Reservation Steakhouse Plugin Settings"
+msgstr  ""
+
+#: gk-reservation-steakhouse.php:149
+msgid   "Make reservation"
+msgstr  ""
+
+#: gk-reservation-steakhouse.php:103
+msgid   "Name"
+msgstr  ""
+
+#: gk-reservation-steakhouse.php:263
+msgid   "Name: "
+msgstr  ""
+
+#: gk-reservation-steakhouse.php:85
+msgid   "Party Size*"
+msgstr  ""
+
+#: gk-reservation-steakhouse.php:244
+msgid   "Party details:"
+msgstr  ""
+
+#: gk-reservation-steakhouse.php:255
+msgid   "Party size: "
+msgstr  ""
+
+#: gk-reservation-steakhouse.php:123
+msgid   "Phone"
+msgstr  ""
+
+#: gk-reservation-steakhouse.php:277
+msgid   "Phone: "
+msgstr  ""
+
+#: gk-reservation-steakhouse.php:326
+msgid   "Please check the fields in the reservation form before sending."
+msgstr  ""
+
+#: gk-reservation-steakhouse.php:46
+msgid   "Reservation Form"
+msgstr  ""
+
+#: gk-reservation-steakhouse.php:127
+msgid   "Special instructions"
+msgstr  ""
+
+#: gk-reservation-steakhouse.php:284
+msgid   "Special instructions:"
+msgstr  ""
+
+#: gk-reservation-steakhouse.php:324
+msgid   "The reCAPTCHA wasn't entered correctly. Go back and try it again."
+msgstr  ""
+
+#: gk-reservation-steakhouse.php:75
+msgid   "Time"
+msgstr  ""
+
+#: gk-reservation-steakhouse.php:321
+msgid   "Your reservation has been sucessfully sent."
+msgstr  ""
+
+#: gk-reservation-steakhouse.php:360
+msgid   "reCAPTCHA private key"
+msgstr  ""
+
+#: gk-reservation-steakhouse.php:355
+msgid   "reCAPTCHA public key"
+msgstr  ""

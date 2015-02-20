@@ -1,0 +1,12 @@
+/**
+ *
+ * -------------------------------------------
+ * Custom CSS changes
+ * -------------------------------------------
+ *
+ **/
+ 
+ /* Here you can put your CSS modifications using the Child Theme */
+ .nav-menu > li.current_page_item > a {
+   color: #2D2D2D;
+ }

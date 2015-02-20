@@ -1,0 +1,234 @@
+/* CSS for the tablet devices */
+.only-desktop {
+  display: none;
+}
+
+.only-tablets {
+  display: block;
+}
+
+.only-smartphones {
+  display: none;
+}
+
+.only-tablets-and-smartphones {
+  display: block;
+}
+
+.only-desktop-and-tablets {
+  display: block;
+}
+
+#content,
+#sidebar {
+  clear: both;
+  width: 100% !important;
+}
+
+#sidebar {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 30px !important;
+}
+
+#sidebar .widget {
+  float: left;
+  margin: 1% 1% !important;
+  width: 48% !important;
+}
+
+#sidebar .widget:nth-child(2n+1) {
+  clear: both;
+}
+
+.site-main {
+  padding-top: 60px;
+}
+
+#gk-bg .page.one-page-layout {
+  margin-top: -60px;
+}
+
+#gk-header-nav.static {
+  height: 73px;
+}
+#gk-header-nav .nav-menu {
+  display: none;
+}
+
+#gk-header.menu-visible {
+  padding-top: 73px;
+}
+
+#aside-menu-toggler {
+  display: block;
+}
+
+.gk-cols[data-cols="4"] > div,
+.gk-cols[data-cols="5"] > div {
+  margin-bottom: 30px;
+  width: 50%;
+}
+
+.gk-cols[data-cols="4"] > div:nth-child(2n+1),
+.gk-cols[data-cols="5"] > div:nth-child(2n+1) {
+  clear: both;
+}
+
+article header h1,
+article header h2 {
+  font-size: 32px;
+}
+
+/* Frontpage */
+#gk-header,
+.frontpage-block.gk-parallax {
+  background-attachment: scroll;
+}
+
+.gk-parallax,
+.frontpage-block.gk-parallax {
+  padding: 80px 15px !important;
+}
+
+#gk-header-mod h1 {
+  font-size: 48px;
+}
+
+#gk-header-mod h2 {
+  width: 72%;
+}
+
+.gk-menu-left-img,
+.gk-menu-right-img,
+.gk-description-left-img {
+  display: none;
+}
+
+.gk-menu .gk-cols > div {
+  padding: 0 20px;
+}
+
+.gk-menu .gk-cols {
+  margin: 30px -20px 75px -20px;
+}
+
+.gk-menu .gk-cols dd strong {
+  font-size: 13px;
+}
+
+.big-icon a {
+  font-size: 30px;
+}
+
+.newsletter input {
+  margin: 3px 0 !important;
+  width: 100% !important;
+}
+
+.newsletter .header {
+  font-size: 20px;
+}
+
+.newsletter .header small {
+  font-size: 16px;
+}
+
+.bigtitle .header,
+.bigtitle > header h1 {
+  font-size: 40px;
+}
+
+.bigtitle .header a:before,
+.bigtitle .header a:after,
+.bigtitle .header span:before,
+.bigtitle .header span:after,
+.bigtitle > header h1 > span:before,
+.bigtitle > header h1 > span:after {
+  top: 20px;
+}
+
+.bigtitle .header small {
+  font-size: 20px;
+  margin: 4px 0 20px 0;
+}
+
+.gk-special-menu li {
+  padding: 16px 10px;
+}
+
+.gk-special-menu h4 {
+  font-size: 18px;
+}
+
+.gk-special-menu strong {
+  font-size: 15px;
+}
+
+.gk-special .gk-special-content {
+  padding: 30px 50px;
+}
+
+.gk-description {
+  padding: 70px 0 200px;
+}
+
+.gk-menu .gk-cols h3 {
+  font-size: 16px;
+}
+
+.gk-menu dd strong {
+  font-size: 13px;
+}
+
+.gk-menu .gk-cols dd small {
+  font-size: 12px;
+}
+
+blockquote {
+	margin: 20px auto;
+	width: 90%;
+}
+
+/* Subpages */
+.one-page-layout .bigtitle.has-bg {
+  height: 320px;
+  line-height: 360px;
+}
+
+.gk-menu-container .gk-cols {
+  margin: 10px -20px 100px -20px;
+}
+
+.gk-menu-container .gk-cols > div {
+  padding: 0 20px;
+}
+
+/* GK NSP News Grid */
+.gk-nsp-news_grid hr.separator {
+  margin: 0 0 0 0 !important;
+  padding: 0 0 25px 0 !important;
+  width: 130px;
+}
+
+.gk-nsp-news_grid h3 {
+  font-size: 18px;
+}
+
+.gk-nsp-news_grid time {
+  font-size: 11px;
+}
+
+.gk-nsp-news_grid figcaption p {
+  font-size: 12px;
+}
+
+@media (max-width: 782px) {
+  .admin-bar #gk-header-nav.static {
+    top: 46px;
+  }
+
+  html #wpadminbar {
+    z-index: 50000 !important;
+  }
+}

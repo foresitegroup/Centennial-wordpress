@@ -1,0 +1,140 @@
+/* CSS for the small tablet devices */
+/* Frontpage elements */
+.gk-nsp-art,
+.gk-nsp-arts,
+.gk-nsp-links {
+  clear: both;
+  width: 100% !important;
+}
+
+.gk-3-cols[data-cols="2"] .widget,
+.gk-3-cols[data-cols="3"] .widget {
+  padding: 0 10px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.gk-3-cols[data-cols="2"],
+.gk-3-cols[data-cols="3"] {
+  margin: 0 -10px;
+}
+
+.comment-content-wrapper {
+  margin: 0 0 0 64px;
+}
+
+.entry-related a {
+  display: inline-block;
+  margin: 0 1%;
+  vertical-align: top;
+  width: 46%;
+}
+
+/* Subpages */
+.gk-photo h3 {
+  font-size: 20px;
+  padding: 0 0 20px 0;
+}
+
+.gk-photo p {
+  font-size: 14px;
+}
+
+.gk-menu-container dd:after {
+  display: none;
+}
+
+.one-page-layout .bigtitle {
+  margin: 50px 0 50px 0 !important;
+}
+
+.gk-menu-container .gk-cols {
+  margin: 10px -15px 50px -15px;
+}
+
+.big-icon i {
+  font-size: 140px;
+  text-indent: 36px;
+}
+
+.big-icon a {
+  font-size: 24px;
+}
+
+.widget.dark, .widget.light, .widget.color1, .widget.color2, .widget.border1, .widget.border2 {
+  padding: 20px 20px 10px 20px !important;
+}
+
+/* Frontpage elements */
+#gk-header-mod .gk-short-menu li {
+  display: inline-block;
+  margin: 5px 15px;
+}
+
+.newsletter .box-wrap {
+  padding: 0 0 45px 0;
+}
+
+.gk-over-map.gk-cols > div:first-child {
+  padding: 0 10px 0 0;
+}
+
+.gk-over-map.gk-cols > div {
+  padding: 0 0 0 10px;
+}
+
+.gk-testimonials-prev:hover {
+  left: 0;
+}
+
+.gk-testimonials-next:hover {
+  right: 0;
+}
+
+.gk-testimonials-prev,
+.gk-testimonials-next {
+  height: 40px;
+  width: 40px;
+}
+
+.gk-menu .gk-cols dd small {
+  width: 72%;
+}
+
+.gk-menu .gk-cols dd strong {
+  width: 25%;
+}
+
+.gk-description {
+  padding: 50px 0 0 0 !important;
+}
+
+.gk-description-right-img {
+  display: none;
+}
+
+.gk-special > .figure {
+  display: none;
+}
+
+.gk-special .gk-special-content {
+  width: 100%;
+}
+
+/* GK NSP News Grid */
+.gk-nsp-news_grid figcaption:before,
+.gk-nsp-news_grid .inverse figcaption:before {
+  top: 32px;
+}
+
+.gk-nsp-news_grid hr.separator {
+  clear: both;
+  display: block;
+  margin: 25px auto !important;
+}
+
+.gk-nsp-news_grid[data-cols="2"] > figure,
+.gk-nsp-news_grid[data-cols="3"] > figure,
+.gk-nsp-news_grid[data-cols="4"] > figure {
+  width: 100%;
+}
